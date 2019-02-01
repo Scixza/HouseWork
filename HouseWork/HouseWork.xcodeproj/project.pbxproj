@@ -12,6 +12,9 @@
 		B8760FB421F21FD600315453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8760FB221F21FD600315453 /* Main.storyboard */; };
 		B8760FB621F21FD700315453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8760FB521F21FD700315453 /* Assets.xcassets */; };
 		B8760FB921F21FD800315453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8760FB721F21FD800315453 /* LaunchScreen.storyboard */; };
+		B8760FC921F239FE00315453 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8760FC821F239FE00315453 /* HomeScreenVC.swift */; };
+		B8760FCB2204B0C100315453 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8760FCA2204B0C100315453 /* CardCell.swift */; };
+		B8760FCE2204C84A00315453 /* HouseHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8760FCD2204C84A00315453 /* HouseHold.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B8760FB521F21FD700315453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8760FB821F21FD800315453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8760FBA21F21FD800315453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8760FC821F239FE00315453 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		B8760FCA2204B0C100315453 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		B8760FCD2204C84A00315453 /* HouseHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseHold.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		B8760FAD21F21FD600315453 /* HouseWork */ = {
 			isa = PBXGroup;
 			children = (
+				B8760FC521F239AF00315453 /* Home Screen */,
 				B8760FAE21F21FD600315453 /* AppDelegate.swift */,
 				B8760FB021F21FD600315453 /* ViewController.swift */,
 				B8760FB221F21FD600315453 /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				B8760FBA21F21FD800315453 /* Info.plist */,
 			);
 			path = HouseWork;
+			sourceTree = "<group>";
+		};
+		B8760FC521F239AF00315453 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B8760FC821F239FE00315453 /* HomeScreenVC.swift */,
+				B8760FCA2204B0C100315453 /* CardCell.swift */,
+				B8760FCD2204C84A00315453 /* HouseHold.swift */,
+			);
+			path = "Home Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8760FB121F21FD600315453 /* ViewController.swift in Sources */,
+				B8760FCE2204C84A00315453 /* HouseHold.swift in Sources */,
 				B8760FAF21F21FD600315453 /* AppDelegate.swift in Sources */,
+				B8760FC921F239FE00315453 /* HomeScreenVC.swift in Sources */,
+				B8760FCB2204B0C100315453 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
